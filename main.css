@@ -1,0 +1,293 @@
+* body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-image: url('img/galaxy-sky-alt2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 9999999999;
+}
+
+header h1 {
+    font-size: 22.15px;
+}
+
+header h2 {
+    font-size: 19.8px;
+}
+
+
+nav {
+    margin-top: 37.5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.2;
+}
+
+img {
+    max-width: 290px;
+    max-height: 290px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.main-redirect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px !important;
+    max-width: 475px !important;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    grid-column: span 2;
+    overflow: visible;
+    position: relative;
+}
+
+.main-redirect-card img {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.main-redirect-card img:hover {
+    filter: drop-shadow(0 0 6.25px rgba(255, 255, 255, 0.85));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.main-redirect-card img:active {
+    filter: drop-shadow(0 0 6.25px rgba(255, 255, 255, 0.925));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.redirect-card {
+    height: 550px !important;
+    width: 475px !important;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 40px;
+    overflow: visible;
+    position: relative;
+    align-self: start;
+    transition: 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.redirect-card img {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.25));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.redirect-card img:hover {
+    filter: drop-shadow(0 0 6.25px rgba(255, 255, 255, 0.735));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.redirect-card img:active {
+    filter: drop-shadow(0 0 6.25px rgba(255, 255, 255, 0.875));
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.button {
+    background-color: white;
+    padding: 12.5px;
+    border: 3.5px solid rgb(185, 185, 185);
+    border-radius: 7px;
+    width: 87.5%;
+    position: absolute;
+    bottom: 40px;
+    transition: 0.4s ease-in-out, transform 0.4s ease-in-out
+}
+
+.button:hover {
+    background-color: cyan;
+    border: 3.5px solid #02b5a3;
+}
+
+.button:active {
+    background-color: #adfff7;
+    border: 3.5px solid #65cfc4;
+}
+
+.fact {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    height: 260px !important;
+    width: 245px !important;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.55s ease-in-out, transform 0.55s ease-in-out;
+}
+
+.fact:hover {
+    transform: scale(1.07);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21.25px;
+}
+
+.sticky-fact-theme {
+    background-color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block !important;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.sticky-fact-theme h2 {
+    padding-top: 5px;
+}
+
+.button:hover {
+    background-color: cyan;
+    border: 3.5px solid #02b5a3;
+}
+
+.button:active {
+    background-color: #adfff7;
+    border: 3.5px solid #65cfc4;
+}
+
+.go-back-btn {
+    width: 33%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.go-back-btn:hover {
+    background-color: cyan;
+    border: 3.5px solid #02b5a3;
+}
+
+.go-back-btn:active {
+    background-color: #adfff7;
+    border: 3.5px solid #65cfc4;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: column;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    margin-top: 56px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+
+    header {
+        height: 100px;
+        margin-bottom: 12.5px;
+    }
+
+    .main-redirect-card {
+        height: 350px !important;
+        max-width: 255px !important;
+    }
+
+    .main-redirect-card p {
+        font-size: 12.7px;
+    }
+
+    .main-redirect-card h1 {
+        font-size: 26px;
+    }
+
+    .redirect-card {
+        height: 350px !important;
+        max-width: 255px !important;
+    }
+
+    .redirect-card p {
+        font-size: 12.7px;
+        margin-bottom: 1000px;
+    }
+
+    .redirect-card h1 {
+        font-size: 26px;
+    }
+
+    .button {
+        padding: 7px;
+        border: 3px solid rgb(185, 185, 185);
+        border-radius: 7px;
+        width: 87.5%;
+        position: absolute;
+        bottom: 20px;
+        margin-left: -7.5px;
+        margin-bottom: -10px;
+    }
+
+    .button a {
+        font-size: 19px;
+    }
+
+    img {
+        max-width: 150px;
+        max-height: 150px;
+        object-fit: contain;
+        margin-top: 10px;
+    }
+}
